@@ -16,9 +16,12 @@ elseif arg == "b1"
     A = imread("images/buildings1.jpg");
 elseif arg == "b2"
     A = imread("images/buildings2.jpg");
+elseif arg == "w"
+    A = imread("images/wolf.jpg");
 else
     A = imread("images/apple/apple_full.jpg");
 end
 
-X = double(rgb2gray(A));
+% X = double(rgb2gray(A));
+X = im2double(A);
 end
