@@ -35,6 +35,7 @@ printImage(X);
 title("Original Image")
 pause;
 
+
 %% Plotting the Singular Values
 figure("Name", "Singular Values of the Image");
 
@@ -88,6 +89,7 @@ end
 fprintf("Subplots Drawn\n\n");
 pause;
 
+
 %% Analysing the difference
 
 figure("Name", "Difference in Images");
@@ -132,6 +134,7 @@ printImage(X - Xapprox);
 title("Difference");
 pause;
 
+
 %% Comparing the Original and 50% 
 
 fprintf("Drawing the Comparison plot... \n\n");
@@ -154,3 +157,4 @@ printImage(Xapprox);
 title("Compressed by about 50%");
 
 fprintf("----Thank You -----\n");
+
