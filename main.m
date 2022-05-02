@@ -20,7 +20,9 @@ fprintf("Application of SVD in Image Compression\n\n");
 %% Getting the image, performing SVD and displaying the original image
 fprintf("Getting the image and performing SVD\n");
 
-X = getImage("w");  % Image Matrix in Grayscale
+% Replace this line by the commented line to load your image
+X = getImage("w");
+% X = im2double(imread("path"));
 
 fprintf("Started Singular Value Decomposition...\n");
 tic, 
